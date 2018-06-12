@@ -3,29 +3,51 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  height: 100%;
+  width: 100%;
+}
 .navtop {
-  position:
+  position: fixed;
+  top: 0px;
+  right: 0;
+}
+.navtop a {
+  color: black;
+  text-decoration: none;
+}
+.navtop li {
+  display: inline-block;
+  margin: 0 5px;
 }
 .footerclass {
   position: fixed;
   bottom: 0px;
   background-color: lightgrey;
-  left: 0;
-  right: 0;
+  width: 100%
 }
 .navbottom {
   border: 1px solid grey;
 }
 footer li {
   display: inline-block;
+  margin: 0px 5px;
 }
 footer a {
   text-decoration: none;
   color: grey;
 }
 .nav_class1 {
-
+ float: right;
 }
 .nav_class2 {
-  
+  float: left;
+}
+main {
+  margin: auto;
+  text-align: center;
+  margin-top: 10%;
+}
+main p {
+  margin: 5px;
 }
